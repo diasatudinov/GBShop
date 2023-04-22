@@ -130,8 +130,6 @@
 		9491859C29F07406005C94CE /* App */ = {
 			isa = PBXGroup;
 			children = (
-				943C60C729F069DA003A65F6 /* GBShopApp.swift */,
-				943C60C929F069DA003A65F6 /* ContentView.swift */,
 				9491859D29F07427005C94CE /* BussinessLogic */,
 				9491859E29F07451005C94CE /* Entity */,
 				9491859F29F07462005C94CE /* Assembly */,
@@ -164,6 +162,8 @@
 		949185A029F07477005C94CE /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				943C60C729F069DA003A65F6 /* GBShopApp.swift */,
+				943C60C929F069DA003A65F6 /* ContentView.swift */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
