@@ -17,20 +17,39 @@ final class GBShopTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func test_SignIn(){
+        var email = "login"
+        var password = "password"
+        
+        let signIn = SignIn(email: email, password: password)
+        let result = signIn.signIn(email: email, password: password)
+        
+        XCTAssertEqual(result, true)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func test_SignUp(){
+        let name = "Dias"
+        let surname = "Atudinov"
+        let age = 24
+        let email = "dias.atudinov@gmail.com"
+        let password = "password"
+        
+        let signUP = SignUp(name: name, surname: surname, age: age, email: email, password: password)
+        
+        let result = signUP.signUp(name: name, surname: surname, age: age, email: email, password: password)
+        
+        XCTAssertEqual(result, true)
     }
+    
+    func test_LogOut(){
+        let signedIn = true
+        
+        let logOut = LogOut(signedIn: signedIn)
+        let result = logOut.exitAccount(signedIn: signedIn)
+        
+        XCTAssertEqual(result, false)
+    }
+   
 
 }

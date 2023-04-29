@@ -14,6 +14,9 @@
 		943C60D929F069DF003A65F6 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C60D829F069DF003A65F6 /* GBShopTests.swift */; };
 		943C60E329F069DF003A65F6 /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C60E229F069DF003A65F6 /* GBShopUITests.swift */; };
 		943C60E529F069DF003A65F6 /* GBShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C60E429F069DF003A65F6 /* GBShopUITestsLaunchTests.swift */; };
+		943CDBC129FD21D2009024CA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBC029FD21D2009024CA /* SignUp.swift */; };
+		943CDBC329FD21FB009024CA /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBC229FD21FB009024CA /* LogOut.swift */; };
+		943CDBC529FD221E009024CA /* ChangeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBC429FD221E009024CA /* ChangeData.swift */; };
 		944B99F229F43CD8005C42F7 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B99F129F43CD8005C42F7 /* SignIn.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		943C60DE29F069DF003A65F6 /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943C60E229F069DF003A65F6 /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		943C60E429F069DF003A65F6 /* GBShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		943CDBC029FD21D2009024CA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		943CDBC229FD21FB009024CA /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
+		943CDBC429FD221E009024CA /* ChangeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeData.swift; sourceTree = "<group>"; };
 		944B99F129F43CD8005C42F7 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				944B99F129F43CD8005C42F7 /* SignIn.swift */,
+				943CDBC029FD21D2009024CA /* SignUp.swift */,
+				943CDBC229FD21FB009024CA /* LogOut.swift */,
+				943CDBC429FD221E009024CA /* ChangeData.swift */,
 			);
 			path = BussinessLogic;
 			sourceTree = "<group>";
@@ -325,7 +334,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943CDBC329FD21FB009024CA /* LogOut.swift in Sources */,
+				943CDBC529FD221E009024CA /* ChangeData.swift in Sources */,
 				943C60CA29F069DA003A65F6 /* ContentView.swift in Sources */,
+				943CDBC129FD21D2009024CA /* SignUp.swift in Sources */,
 				944B99F229F43CD8005C42F7 /* SignIn.swift in Sources */,
 				943C60C829F069DA003A65F6 /* GBShopApp.swift in Sources */,
 			);
