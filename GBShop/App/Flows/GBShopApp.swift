@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct GBShopApp: App {
+    @StateObject private var storeModel = StoreModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViewUIView().environmentObject(storeModel)
         }
     }
 }
